@@ -1,0 +1,28 @@
+Scanner input = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("0.0");
+		
+System.out.println("1.54");
+double pessoa1 = input.nextDouble();
+System.out.println("1.75");
+double pessoa2 = input.nextDouble();
+System.out.println("1.89");
+double pessoa3 = input.nextDouble();
+System.out.println("1.46");
+double pessoa4 = input.nextDouble();
+System.out.println("1.34");
+double pessoa5 = input.nextDouble();
+System.out.println("1.94");
+double pessoa6 = input.nextDouble();
+System.out.println("1.90");
+double pessoa7 = input.nextDouble();
+System.out.println("1.67");
+double pessoa8 = input.nextDouble();
+System.out.println("1.60");
+double pessoa9 = input.nextDouble();
+System.out.println("1.70");
+double pessoa10 = input.nextDouble();
+
+
+double media = (pessoa1 + pessoa2 + pessoa3 + pessoa4 + pessoa5 + pessoa6 + pessoa7 + pessoa8 + pessoa9 + pessoa10) / 10;
+
+System.out.println("A média é de" + df.format(media));
